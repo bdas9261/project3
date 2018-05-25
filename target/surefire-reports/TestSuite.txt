@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 60.942 sec <<< FAILURE! - in TestSuite
+Open(scripts.travels)  Time elapsed: 56.433 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'P5-508SC8Q', ip: '10.195.108.75', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:123)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:117)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at scripts.travels.Open(travels.java:45)
+
